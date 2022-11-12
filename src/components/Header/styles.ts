@@ -8,6 +8,7 @@ export const HeaderContainer = styled.header`
   nav {
     display: flex;
     gap: 0.5rem;
+
     a {
       width: 3rem;
       height: 3rem;
@@ -21,7 +22,7 @@ export const HeaderContainer = styled.header`
       border-top: 3px solid transparent;
       border-bottom: 3px solid transparent;
 
-      :hover {
+      &:hover {
         border-bottom: 3px solid ${(props) => props.theme['green-500']};
       }
 
